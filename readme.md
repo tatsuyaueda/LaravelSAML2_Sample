@@ -2,11 +2,12 @@
 
 1. git clone https://github.com/tatsuyaueda/LaravelSAML2_Sample.git
 1. cd LaravelSAML2_Sample
+1. composer install
 1. cp .env.example .env
 1. .env にデータベースの設定をする
 1. php artisan key:generate
 1. php artisan migrate
-1. app/config/saml2_settings.php を作成
+1. config/saml2_settings.php を作成
 1. Laravelのユーザを登録
 1. ブラウザで /saml2/login にアクセスすると、SAMLで認証が走ります。
 
